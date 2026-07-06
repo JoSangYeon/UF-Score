@@ -1,0 +1,84 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+
+# MLM_Filter - exclude completely
+MLM_Filter/
+MLM_filter_samples.py
+
+# Data files
+*.csv
+data/
+*.json
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Model weights and checkpoints
+pretrained_models/
+result/
+checkpoints/
+*.bin
+*.safetensors
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and outputs
+*.log
+logs/
+outputs/
+runs/
+wandb/
+tensorboard/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Private configuration
+*.env
+.env.*
+config_local.yaml
+secrets.yaml
+
+# Test files
+test_*.bash
+*.bash
+
+# Documentation build
+docs/_build/
+*.pdf
+
+# Cache
+.cache/
+*.cache
+
+# System files
+Thumbs.db
+.directory
