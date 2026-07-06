@@ -63,7 +63,8 @@ temp/
 
 # Private configuration
 *.env
-.env.*
+.env
+!.env.example
 config_local.yaml
 secrets.yaml
 
